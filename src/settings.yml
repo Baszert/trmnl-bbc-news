@@ -4,7 +4,7 @@ no_screen_padding: 'yes'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-framework_version: latest
+framework_version: 3.3.2
 serverless_language: ''
 polling_url: "{% if feed == \"top\" %}\r\nhttps://feeds.bbci.co.uk/news/rss.xml\r\n{% elsif feed == \"world\" %}\r\nhttps://feeds.bbci.co.uk/news/world/rss.xml\r\n{% elsif feed == \"uk\" %}\r\nhttps://feeds.bbci.co.uk/news/uk/rss.xml\r\n{% elsif feed == \"business\" %}\r\nhttps://feeds.bbci.co.uk/news/business/rss.xml\r\n{% elsif feed == \"politics\" %}\r\nhttps://feeds.bbci.co.uk/news/politics/rss.xml\r\n{% elsif feed == \"health\" %}\r\nhttps://feeds.bbci.co.uk/news/health/rss.xml\r\n{% elsif feed == \"edu\" %}\r\nhttps://feeds.bbci.co.uk/news/education/rss.xml\r\n{% elsif feed == \"science\" %}\r\nhttps://feeds.bbci.co.uk/news/science_and_environment/rss.xml\r\n{% elsif feed == \"tech\" %}\r\nhttps://feeds.bbci.co.uk/news/technology/rss.xml\r\n{% elsif feed == \"entertainment\" %}\r\nhttps://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml\r\n{% else %}\r\nhttps://feeds.bbci.co.uk/news/world/rss.xml\r\n{% endif %}"
 polling_headers: ''
