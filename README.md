@@ -1,9 +1,13 @@
-# BBC News - News feed
+# BBC News
 
-A [TRMNL](https://trmnl.com) plugin for ePaper displays, connected by
-[GitHub Sync](https://help.trmnl.com/en/articles/15977899-github-sync): every save in TRMNL lands here as a commit.
+The latest BBC headlines on your TRMNL. Two lead stories with photos, the rest as a compact list.
 
-<img width="150" alt="image" src="https://trmnl.com/images/brand/badges/light/works-with-trmnl/trmnl-badge-works-with-light.svg" />
+<a href="https://trmnl.com/recipes/206768"><img width="150" alt="Works with TRMNL" src="https://trmnl.com/images/brand/badges/light/works-with-trmnl/trmnl-badge-works-with-light.svg" /></a>
+
+## Settings
+- **News feed:** Top Stories, World, UK, Business, Politics, Health, Education, Science, Tech or Entertainment
+
+Data from the public BBC News RSS feeds. Refreshes every hour.
 
 ### Develop locally
 
@@ -14,6 +18,4 @@ gem install trmnl_preview
 trmnlp serve
 ```
 
-### Discoverability
-
-Add the `trmnl` topic to this repo so other TRMNL plugin builders can find it.
+Questions or ideas? trmnl@achtnegen.nl or @Bastronautica on Discord.
